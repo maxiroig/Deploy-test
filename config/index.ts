@@ -16,6 +16,7 @@ import features from "./features"
 import i18n from "./i18n"
 import slack from "./slack"
 import errors from "./errors"
+import logos from "./logos"
 
 export default {
 	auth,
@@ -36,4 +37,5 @@ export default {
 	i18n,
 	slack,
 	errors,
+	logos
 }

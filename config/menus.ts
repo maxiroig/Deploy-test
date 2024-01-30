@@ -5,43 +5,40 @@ export default {
 
 		navigation: {
 			links: [
-				{ name: "Features", href: "/#features" },
-				{ name: "Pricing", href: "/#pricing" },
-				{ name: "FAQ's", href: "/#faqs" },
+				{ name: "Inicio", href: "/" },
+				{ name: "Precios", href: "/#pricing" },
+				{ name: "Contáctanos", href: "/#logos" },
+				{ name: "Preguntas frecuentes", href: "/#faqs" },
 			],
 		},
 	},
 	footer: {
-		promolink: {
-			affiliateId: "",
-		},
 		navigation: {
 			links: [
-				{ name: "Top", href: "/#top" },
-				{ name: "Features", href: "/#features" },
-				{ name: "CTA", href: "/#cta" },
-				{ name: "Testimonials", href: "/#testimonials" },
+				{ name: "Inicio", href: "/#top" },
+				{ name: "Contacto", href: "/#logos" },
 				{ name: "Pricing", href: "/#pricing" },
-				{ name: "FAQ's", href: "/#faqs" },
-				{
-					name: "Affiliates",
-					href: "/",
-				},
+				{ name: "Preguntas frecuentes", href: "/#faqs" },
 			],
-			legal: [
-				{ name: "Privacy Policy", href: "/" },
-				{ name: "Terms & Conditions", href: "/" },
-			],
+			// legal: [
+			// 	{ name: "Privacy Policy", href: "/" },
+			// 	{ name: "Terms & Conditions", href: "/" },
+			// ],
 			social: [
 				{
-					name: "Twitter",
+					name: "Twitch",
 					href: "",
-					icon: "simple-icons:x",
+					icon: "simple-icons:twitch",
 				},
 				{
-					name: "Github",
+					name: "Discord",
 					href: "",
-					icon: "simple-icons:github",
+					icon: "simple-icons:discord",
+				},
+				{
+					name: "Twitter",
+					href: "https://twitter.com/ChikyFdz7",
+					icon: "simple-icons:x",
 				},
 			],
 		},
@@ -68,9 +65,9 @@ export default {
 		},
 	},
 
-	auth: {
-		logout: { name: "Logout" },
-		login: { name: "Login", href: "/auth/login" },
-		register: { name: "Register", href: '/auth/register' },
-	},
+	// auth: {
+	// 	logout: { name: "Logout" },
+	// 	login: { name: "Login", href: "/auth/login" },
+	// 	register: { name: "Register", href: '/auth/register' },
+	// },
 }

@@ -1,45 +1,34 @@
 export default {
 	items: [
 		{
-			name: "Feature number 1",
-			description: "This is the feature number one",
-			icon: "",
+			name: "Requisito 1",
+			description: "No estar shadowban, deberás compartir una prueba de que tu cuenta no esta baneada",
+			icon: "solar:user-block-bold",
 		},
 		{
-			name: "Feature number 2",
-			description: "This is the feature number two",
-			icon: "",
+			name: "Requisito 2",
+			description: "Debes tener tu cuenta linkeada a Battle.net(En caso de ser de consola)",
+			icon: "material-symbols:add-link",
 		},
 		{
-			name: "Feature number 3",
-			description: "This is the feature number three",
-			icon: "",
+			name: "Requisito 3",
+			description: "Tener armas meta subidas(Asi nos facilita lograr la NUKE!)",
+			icon: "game-icons:target-dummy",
 		},
 		{
-			name: "Feature number 4",
-			description: "This is the feature number four",
-			icon: "",
+			name: "Requisito 4",
+			description: "Disponer de cuenta paypal o bizum(En caso de vivir en España)",
+			icon: "ic:baseline-paypal",
 		},
 		{
-			name: "Feature number 1",
-			description: "This is the feature number one",
-			icon: "",
+			name: "Requisito 5",
+			description: "Disponer de cuenta de discord o twitch para poder chatear por privado",
+			icon: "ic:baseline-discord",
 		},
 		{
-			name: "Feature number 2",
-			description: "This is the feature number two",
-			icon: "",
+			name: "Requisito 6",
+			description: "Para poder sacar tu NUKE, el pago debe ser por anticipado",
+			icon: "streamline:payment-10-solid",
 		},
-		{
-			name: "Feature number 3",
-			description: "This is the feature number three",
-			icon: "",
-		},
-		{
-			name: "Feature number 4",
-			description: "This is the feature number four",
-			icon: "",
-		},
-		
 	],
 }

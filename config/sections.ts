@@ -5,67 +5,57 @@
 */
 export default {
 	hero: {
-		title: "Acme Company",
-		subtitle: "Solutions for a Nonexistent World",
+		title: "Nuke is coming!",
+		subtitle: "Te ayudamos a conseguir tu NUKE!",
 		content:
-			"Welcome to Acme Company, where we specialize in solving problems that don't exist! With over a century of imaginary expertise, we're the leaders in addressing non-existent challenges with unparalleled dedication. Join us in the whimsical world of innovation where we create solutions for problems you didn't even know you didn't have!",
+			"Tienes ganas de sacarte la nuke, pero tu team no te acompaña? No te preocupes, ya estamos aqui para ayudarte!",
 		media: {
 			type: "video",
 			attrs: {
-				src: "/videos/hero-video.mp4",
+				src: "/videos/clip-nuke.mp4",
 				type: "video/mp4",
 				autoplay: "autoplay",
 				muted: "muted",
-				controls: true,
-				alt: "Hero Video",
+				controls: false,
+				alt: "Nuke final",
 			},
 		},
 		cta: {
-		
-			label: "Join Us Now!",
-			icon: "ic:twotone-rocket-launch",
+			href:"https://shots.so/",
+			label: "Quiero la NUKE!!!",
+			icon: "game-icons:nuclear-bomb",
 		},
 	},
 
-	story: {
-		title: "Our Story",
-		subtitle: "A Century of Imaginary Innovation",
-		content: [
-			"Acme Company was founded in 1920 by Wile E. Coyote, a visionary entrepreneur with a passion for solving problems that don't exist. Since then, we've been at the forefront of innovation, creating solutions for challenges that haven't even occurred yet.",
-			"Our team of experts is committed to delivering the finest products and services, ensuring your success in a world that doesn't exist. Join us in our journey to redefine limits and transform the future!",
-		],
-		media: {
-			type: "image", // 'video' | 'image' | 'iframe'
-			attrs: {
-				src: "/images/features-image.png",
-				alt: "Acme Company Story Image",
-				caption: "Acme Company Story Image Caption",
-			},
-		},
+	logos: {
+		title: "Contactanos!",
+		subtitle: "Te dejamos los principales canales para contactarnos!",
+		content: [],
+		
 	},
 	features: {
-		title: "Fictitious Features",
-		subtitle: "Revolutionary Solutions for Imaginary Problems",
+		title: "Requisitos",
+		subtitle: "Para poder sacar la nuke, previamente tendras que cumplir una serie de requisitos",
 		content:
-			"At Acme Company, we take pride in offering groundbreaking features that address the most fictitious of challenges. Dive into our world of innovation, where we provide solutions you never knew you needed. From our Quantum Oscillation Engine to our Virtual Unicorn Wrangler, explore the endless possibilities of non-existent solutions!",
-		media: {
-			type: "image", // 'video' | 'image' | 'iframe'
-			attrs: {
-				// src: '/images/features-image.png',
-				alt: "Acme Company Story Image",
-				caption: "Acme Company Story Image Caption",
-			},
-		},
+			"No te preocupes, los requisitos son muy sencillos, los necesitamos para agilizar lo maximo posible ir a por esa NUKE!!",
+		// media: {
+		// 	type: "image", // 'video' | 'image' | 'iframe'
+		// 	attrs: {
+		// 		// src: '/images/features-image.png',
+		// 		alt: "Acme Company Story Image",
+		// 		caption: "Acme Company Story Image Caption",
+		// 	},
+		// },
 	},
 	cta: {
-		title: "Unlock Infinite Possibilities",
-		subtitle: "Join the Acme Revolution Today!",
+		title: "Hey tú!",
+		subtitle: "Te gustaria conseguir la nuke? ",
 		content:
-			"Why wait for tomorrow when the future is at your fingertips now? Dive into a world where innovation meets practicality. Click below to embark on a journey with Acme Company, where every step forward is a leap towards unparalleled success. Let's redefine limits together. Ready to transform your world?",
+			"Te ayudamos a conseguir las recompensas de la nuke con nuestro equipo! ¿A que esperas?",
 		cta: {
 		
-			label: "Begin Your Acme Adventure",
-			icon: "ic:twotone-rocket-launch",
+			label: "Conseguir la NUKE!",
+			icon: "game-icons:nuclear-bomb",
 		},
 	},
 	testimonials: {
@@ -90,18 +80,17 @@ export default {
 		},
 	},
 	pricing: {
-		title: "This is an example pricing!",
-		subtitle: "This is an example pricing !",
+		title: "Precio!",
+		subtitle: "Estas son nuestras tarifas!",
 		content: [
-			"Why pay an arm and a leg when you can get top-notch Acme magic for just a pinky toe's worth? Dive into our laughably affordable pricing plans, carefully crafted for everyone from penny pinchers to big spenders.",
-			"Remember, it's not about the money, but the giggles you earn along the way!",
+			"Te ofrecemos distintas tarifas, ten en cuenta que esto es nuestro trabajo, estamos poniendo nuestro tiempo y dedicacion",
 		],
 	},
 	faqs: {
-		title: "Acme Queries Unraveled",
-		subtitle: "Dive Deep into Acme's Most Common Inquiries",
-		content:
-			"Navigating the world of Acme's innovations can spark questions. Here, we've compiled answers to the most frequently asked queries from our community. From product details to account management, uncover the insights you seek.",
+		title: "Preguntas Frecuentes",
+		subtitle: "Respondemos las preguntas frecuentes de nuestra comunidad ",
+		content: "",
+			
 	},
 }
 

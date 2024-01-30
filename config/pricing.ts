@@ -2,165 +2,165 @@ import { getPriceId } from "../utils/checkoutLinks"
 
 export default {
 	frequencies: [
-		// { value: 'once', label: 'Once', priceSuffix: '/once' },
-		{ value: "monthly", label: "Monthly", priceSuffix: "/month" },
-		{ value: "yearly", label: "Yearly", priceSuffix: "/year" },
+		{ value: 'once', label: 'Once', priceSuffix: '/once' },
+		// { value: "monthly", label: "Monthly", priceSuffix: "/month" },
+		// { value: "yearly", label: "Yearly", priceSuffix: "/year" },
 	],
-	defaultFrequency: "monthly",
+	defaultFrequency: "once",
 	showOriginalPrice: true,
-	specialPrice: {
-		title: "Looking for a custom deal?",
-		content: [
-			"We offer Enterprise license for companies and teams, an educational deals. \n" +
-				"Please contact us for more details.",
-		],
-		cta: {
-			label: "Contact me",
-			icon: "ic:baseline-arrow-forward",
-			href: "mailto:boudydegeer@mosaiqo.com",
-		},
-	},
+	// specialPrice: {
+	// 	title: "Looking for a custom deal?",
+	// 	content: [
+	// 		"We offer Enterprise license for companies and teams, an educational deals. \n" +
+	// 			"Please contact us for more details.",
+	// 	],
+	// 	cta: {
+	// 		label: "Contact me",
+	// 		icon: "ic:baseline-arrow-forward",
+	// 		href: "mailto:boudydegeer@mosaiqo.com",
+	// 	},
+	// },
 	prices: {
-		"barely-broke": {
+		"nuke-segura": {
 			once: { id: getPriceId("default"), coupon: "EARLYBIRD" },
-			monthly: { id: getPriceId("default"), coupon: "EARLYBIRD" },
-			yearly: { id: getPriceId("default"), coupon: "EARLYBIRD" },
+			// monthly: { id: getPriceId("default"), coupon: "EARLYBIRD" },
+			// yearly: { id: getPriceId("default"), coupon: "EARLYBIRD" },
 		},
-		"mid-lifer": {
+		"un-intento": {
 			once: { id: getPriceId("default"), coupon: "LAUNCH" },
-			monthly: { id: getPriceId("default"), coupon: "LAUNCH" },
-			yearly: { id: getPriceId("default"), coupon: "LAUNCH" },
+			// monthly: { id: getPriceId("default"), coupon: "LAUNCH" },
+			// yearly: { id: getPriceId("default"), coupon: "LAUNCH" },
 		},
-		"all-in": {
+		"dos-intentos": {
 			once: { id: getPriceId("default"), coupon: "LAUNCH" },
-			monthly: { id: getPriceId("default"), coupon: "LAUNCH" },
-			yearly: { id: getPriceId("default"), coupon: "LAUNCH" },
+			// monthly: { id: getPriceId("default"), coupon: "LAUNCH" },
+			// yearly: { id: getPriceId("default"), coupon: "LAUNCH" },
 		},
 	},
 	plans: [
 		{
-			name: "Barely Broke",
-			id: "barely-broke",
+			name: "Un intento",
+			id: "un-intento",
 			mostPopular: false,
 			price: {
-				once: "$49",
-				monthly: "$9",
-				yearly: "$99",
+				once: "$40",
+				// monthly: "$9",
+				// yearly: "$99",
 			},
 			original: {
-				once: "$149",
-				monthly: "$49",
-				yearly: "$199",
+				once: "$60",
+				// monthly: "$49",
+				// yearly: "$199",
 			},
 			button: {
-				label: "Hop on the Savings Train!",
-				icon: "ic:twotone-train",
+				label: "Quiero este pack!",
+				icon: "ion:ios-nuclear",
 			},
 			description:
-				"Perfect for those who count pennies but dream big! Embark on the Acme journey without emptying your piggy bank.",
-			cta: {
-				title: "Why Pay More When You Can Pay... Less?",
-				hint: "Every cent counts, especially the ones you save!",
-			},
+				"Perfecto para los tryhard, unete al resto de nuestro equipo tryhard para conseguir esa NUKE a la primera!",
+			// cta: {
+			// 	title: "Why Pay More When You Can Pay... Less?",
+			// 	hint: "Every cent counts, especially the ones you save!",
+			// },
 			features: [
 				{
-					icon: "🛒",
-					title: "Budget-friendly, Not Boring",
-					description: "Get all the essential Acme features without the frills.",
+					icon: "game-icons:life-bar",
+					title: "Con una vida me alcanza!",
+					description: "Solo tienes una oportunidad de conseguir la NUKE",
 				},
 				{
-					icon: "🎉",
-					title: "Surprise Goodies Every Month",
-					description: "Because we believe in sprinkling a little joy!",
+					icon: "fluent:people-team-48-regular",
+					title: "Se parte del equipo",
+					description: "Debes ser parte de nuestro equipo para conseguir la NUKE",
 				},
 				{
-					icon: "📦",
-					title: "Basic Support Package",
-					description: "Got questions? We might have answers!",
+					icon: "ic:baseline-discount",
+					title: "20% descuento",
+					description: "Con este pack, consigues un 20% de descuento en caso de no conseguir la NUKE en tu siguiente intento",
 				},
 			],
 		},
 		{
-			name: "Mid-Lifer's Delight",
-			id: "mid-lifer",
+			name: "Nuke segura!",
+			id: "nuke-segura",
 			mostPopular: true,
 			price: {
-				once: "$99",
-				monthly: "$49",
-				yearly: "$399",
+				once: "$90",
+				// monthly: "$49",
+				// yearly: "$399",
 			},
 			original: {
-				once: "$149",
-				monthly: "$99",
-				yearly: "$199",
+				once: "$120",
+				// monthly: "$99",
+				// yearly: "$199",
 			},
 			button: {
-				label: "Middle of the Road, Top of the Game!",
-				icon: "ph:mountains-duotone",
+				label: "Quiero este pack!",
+				icon: "ion:ios-nuclear",
 			},
 			description:
-				"For those who've been around the block and know the value of a good deal. Experience more with Acme's middle-tier magic.",
-			cta: {
-				title: "Why Settle When You Can Soar?",
-				hint: "Elevate your Acme experience without the vertigo.",
-			},
+				"Para esos que no se andan con tonterias, no importa cuanto cueste, tu NUKE esta asegurada!",
+			// cta: {
+			// 	title: "Quiero este pack",
+			// 	hint: "Elevate your Acme experience without the vertigo.",
+			// },
 			features: [
 				{
-					icon: "🚀",
-					title: "Premium Features Galore",
-					description: "All the bells, whistles, and maybe a kazoo or two.",
+					icon: "mdi:nuke",
+					title: "NUKE asegurada!",
+					description: "Si contratas este paquete, hasta que no obtengas NUKE no paramos!",
 				},
 				{
-					icon: "🎩",
-					title: "Priority Support",
-					description: "Because you deserve the royal treatment.",
+					icon: "fluent:people-team-48-regular",
+					title: "SI QUIERES! puedes ser parte del equipo",
+					description: "Tienes la posibilidad de ser parte del equipo, no te apetece?,no te preocupes puedes facilitarnos tu cuenta de battle.net y nosotros nos encargamos de todo",
 				},
 				{
-					icon: "🥳",
-					title: "Exclusive Access to New Releases",
-					description: "Be the first to try, test, and toast to our latest innovations!",
+					icon: "mdi:priority-high",
+					title: "Prioridad en la lista de espera",
+					description: "Podras obtener la NUKE primero que todos!",
 				},
 			],
 		},
 		{
-			name: "All-In Extravaganza",
-			id: "all-in",
+			name: "Dos intentos",
+			id: "dos-intentos",
 			mostPopular: false,
 			price: {
-				once: "$199",
-				monthly: "$29",
-				yearly: "$199",
+				once: "$70",
+				// monthly: "$29",
+				// yearly: "$199",
 			},
 			original: {
-				once: "$149",
-				monthly: "$49",
-				yearly: "$199",
+				once: "$90",
+				// monthly: "$49",
+				// yearly: "$199",
 			},
 			button: {
-				label: "Go Big or Go Home!",
-				icon: "ph:crown-simple-duotone",
+				label: "Quiero este pack!",
+				icon: "ion:ios-nuclear",
 			},
 			description:
-				"For the ones who believe in sparing no expense for the best! Dive deep into the Acme ocean and discover treasures untold.",
-			cta: {
-				title: "All of Acme, None of the Compromises",
-				hint: "Dive into limitless possibilities with Acme's ultimate offering.",
-			},
+				"Para los precabidos, tendrás 2 oportunidades de conseguir la NUKE!",
+			// cta: {
+			// 	title: "All of Acme, None of the Compromises",
+			// 	hint: "Dive into limitless possibilities with Acme's ultimate offering.",
+			// },
 			features: [
 				{
-					icon: "💼",
-					title: "All Access Pass to Every Feature",
-					description: "If Acme made it, you have it!",
+					icon: "game-icons:life-bar",
+					title: "Con un par de intentos, creo que es suficiente!",
+					description: "Tendrás dos oportunidades de conseguir la NUKE",
 				},
 				{
-					icon: "🛎️",
-					title: "24/7 Premium Support",
-					description: "Day or night, rain or shine, we're here for you!",
+					icon: "fluent:people-team-48-regular",
+					title: "Se parte del equipo",
+					description: "Debes ser parte de nuestro equipo para conseguir la NUKE",
 				},
 				{
-					icon: "🍾",
-					title: "VIP Invites to Acme Events",
-					description: "Rub shoulders with the who's who of the Acme world!",
+					icon: "ic:baseline-discount",
+					title: "50% descuento!",
+					description: "Con este pack, consigues un 50% de descuento en caso de no conseguir la NUKE en tu siguiente intento",
 				},
 			],
 		},
