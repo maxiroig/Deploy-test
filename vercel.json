@@ -3,10 +3,12 @@
   "builds": [
     {
       "src": "deploy-test1",
-      "use": "@vercel/node"
+      "use": "@vercel/node",
+      "config": {
+        "functions": {
+          "prebuild": "prisma generate"
+        }
+      }
     }
-  ],
-  "hooks": {
-    "prebuild": "prisma generate"
-  }
+  ]
 }
