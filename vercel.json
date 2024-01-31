@@ -3,7 +3,7 @@
 	"version": 2,
 	"builds": [
 		{
-			"src": "./server.js",
+			"src": "DEPLOY-TEST1",
 			"use": "@vercel/node",
 			"config": {
 				"functions": {
