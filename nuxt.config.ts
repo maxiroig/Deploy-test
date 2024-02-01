@@ -9,18 +9,4 @@ export default defineNuxtConfig({
   extends: [
     '@rapidlaunch-it/nuxt-rapidlaunch'
   ],
-  nitro: {
-    preset: 'vercel',
-    output:{
-      dir: '../../.vercel/output'
-    }
-  },
-  workspaceDir: '../../',
-  srcDir: 'src',
-  devtools: { enabled: true },
-  buildDir: '../../dist/apps/deploy-test1/.nuxt',
-  devServer: {
-    host: 'localhost',
-    port: 4200,
-  },
 })
