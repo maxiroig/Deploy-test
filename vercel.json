@@ -10,11 +10,5 @@
 				}
 			}
 		}
-	],
-	"routes": [
-		{
-			"src": "/(.*)",
-			"dest": "src/index.vue"
-		}
 	]
 }
