@@ -12,7 +12,6 @@
     }
   ],
   "routes": [
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/deploy-test/$1" }
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
