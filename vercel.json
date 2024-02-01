@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "/deploy-test",
+      "src": "/",
       "use": "@vercel/node",
       "config": {
         "functions": {
@@ -12,6 +12,7 @@
     }
   ],
   "routes": [
+    { "handle": "filesystem" },
     { "source": "/(.*)", "destination": "/" }
   ]
 }
