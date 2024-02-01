@@ -55,5 +55,6 @@
       "schemas": "./**/**/*.sql.prisma",
       "output": "./prisma/schema.prisma"
     }
-  }
+  },
+  "packageManager": "pnpm@7.5.1"
 }
