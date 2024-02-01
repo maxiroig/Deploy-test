@@ -18,7 +18,7 @@ export default defineNuxtConfig({
   workspaceDir: '../../',
   srcDir: 'src',
   devtools: { enabled: true },
-  buildDir: '../../dist/apps/deploy-test-1/.nuxt',
+  buildDir: '../../dist/apps/deploy-test1/.nuxt',
   devServer: {
     host: 'localhost',
     port: 4200,
