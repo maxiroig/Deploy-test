@@ -1,15 +1,20 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "/",
-      "use": "@vercel/node",
-      "config": {
-        "functions": {
-          "prebuild": "prisma generate"
-        }
-      }
-    }
-  ]
-  
+	"version": 2,
+	"builds": [
+		{
+			"src": "pages/index.vue",
+			"use": "@vercel/node",
+			"config": {
+				"functions": {
+					"prebuild": "prisma generate"
+				}
+			}
+		}
+	],
+	"routes": [
+		{
+			"src": "/(.*)",
+			"dest": "src/index.js"
+		}
+	]
 }
