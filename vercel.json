@@ -1,20 +1,14 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "nuxt.config.js",
-      "use": "@nuxtjs/vercel-builder",
-      "config": {
-        "dev": false
-      }
-    }
-  ],
-  "functions": {
-    "prebuild": {
-      "command": "npx prisma generate"
-    }
-  },
-  "env": {
-    "YOUR_ENV_VARIABLE": "value"
-  }
+	"version": 2,
+	"builds": [
+		{
+			"src": "deploy-test1",
+			"use": "@vercel/node",
+			"config": {
+				"functions": {
+					"prebuild": "prisma generate"
+				}
+			}
+		}
+	]
 }
