@@ -1,16 +1,5 @@
 {
 	"version": 2,
     "installCommand": "pnpm install",
-    "env": {
-        "DB_CONNECTION":"sqlite",
-        "DB_URL=file":"./db.sqlite",
-        "AUTH_SECRET":"S0m3S3cr3tStr1ng",
-        "AUTH_ORIGIN":"https://localhost:3000",
-        "NPM_TOKEN":"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",
-        "NPM_REGISTRY":"https://npm.pkg.github.com/",
-        "TAWKTO_PROPERTY_ID":"",
-        "TAWKTO_WIDGET_ID":"",
-        "EMAIL_SERVER_HOST":"sandbox.smtp.mailtrap.io",
-        "EMAIL_SERVER_PORT":"2525"
-    }
+    
 }
