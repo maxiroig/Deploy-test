@@ -9,6 +9,8 @@
         "NPM_TOKEN":"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",
         "NPM_REGISTRY":"https://npm.pkg.github.com/",
         "TAWKTO_PROPERTY_ID":"",
-        "TAWKTO_WIDGET_ID":""
+        "TAWKTO_WIDGET_ID":"",
+        "EMAIL_SERVER_HOST":"sandbox.smtp.mailtrap.io",
+        "EMAIL_SERVER_PORT":"2525"
     }
 }
