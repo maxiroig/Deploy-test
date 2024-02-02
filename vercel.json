@@ -2,12 +2,14 @@
 	"version": 2,
 	"builds": [
 		{
-            "config": {
-                "functions": {
-                    "prebuild": "npx prisma generate &&  pnpm build"
-                }
-            }
+			"src": "deploy-test1",
+			"use": "@vercel/node",
+			"config": {
+				"functions": {
+					"prebuild": "npx prisma generate &&  pnpm build"
+				}
+			}
 		}
 	],
-	"installCommand": "pnpm install --no-frozen-lockfile"
+    "installCommand": "pnpm install --no-frozen-lockfile"
 }
