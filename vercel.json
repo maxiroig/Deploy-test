@@ -10,7 +10,6 @@
     }
   ],
   "functions": { "prebuild": "npx prisma generate" },
-  "install": { "include": ["prisma"], "additionalInstallSteps": ["pnpm install --no-frozen-lockfile"] },
   "env": {
     "YOUR_ENV_VARIABLE": "value"
   }
