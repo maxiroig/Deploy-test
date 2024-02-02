@@ -2,8 +2,8 @@
 	"version": 2,
 	"builds": [
 		{
-			"src": "deploy-test1",
-			"use": "@vercel/node",
+			"src": "nuxt.config.js",
+            "use": "@nuxt/vercel",
 			"config": {
 				"functions": {
 					"prebuild": "npx prisma generate &&  pnpm build"
