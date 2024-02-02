@@ -2,25 +2,16 @@
   "version": 2,
   "builds": [
     {
-      "src": "npx prisma generate && pnpm build",
-      "use": "@vercel/node"
+      "src": "nuxt.config.js",
+      "use": "@nuxtjs/vercel-builder",
+      "config": {
+        "dev": false
+      }
     }
   ],
+  "functions": { "prebuild": "npx prisma generate" },
+  "install": { "include": ["prisma"], "additionalInstallSteps": ["pnpm install --no-frozen-lockfile"] },
   "env": {
     "YOUR_ENV_VARIABLE": "value"
-  },
-  "functions": {
-    "api/**/*": true
-  },
-  "install": {
-    "include": ["prisma", "pnpm-lock.yaml"]
-  },
-  "build": {
-    "env": {
-      "YOUR_BUILD_ENV_VARIABLE": "value"
-    },
-    "commands": {
-      "build": "npx prisma generate && pnpm build"
-    }
   }
 }
