@@ -3,8 +3,8 @@
     "installCommand": "pnpm install",
     "builds": [
 		{
+            "use": "@nuxt/vercel",
 			"config": {
-                "use": "@nuxt/vercel",
 				"functions": {
 					"prebuild": "prisma generate"
 				}
