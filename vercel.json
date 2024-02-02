@@ -1,15 +1,15 @@
 {
 	"version": 2,
+    "installCommand": "pnpm install",
 	"builds": [
 		{
 			"src": "api/**",
             "use": "@nuxt/vercel",
 			"config": {
 				"functions": {
-					"prebuild": "npx prisma generate &&  pnpm build"
+					"prebuild": "prisma generate"
 				}
 			}
 		}
-	],
-    "installCommand": "pnpm install"
+	]
 }
