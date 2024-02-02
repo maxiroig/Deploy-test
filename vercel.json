@@ -4,6 +4,7 @@
     "builds": [
 		{
 			"config": {
+                "use": "@nuxt/vercel",
 				"functions": {
 					"prebuild": "prisma generate"
 				}
