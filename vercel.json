@@ -9,7 +9,11 @@
       }
     }
   ],
-  "functions": { "prebuild": "npx prisma generate" },
+  "functions": {
+    "prebuild": {
+      "command": "npx prisma generate"
+    }
+  },
   "env": {
     "YOUR_ENV_VARIABLE": "value"
   }
