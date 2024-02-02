@@ -2,8 +2,6 @@
 	"version": 2,
     "installCommand": "pnpm install",
     "env": {
-        "DB_CONNECTION":"sqlite",
-        "DB_URL=file":"./db.sqlite",
         "NPM_TOKEN":"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",
         "NPM_REGISTRY":"https://npm.pkg.github.com/"
     }
